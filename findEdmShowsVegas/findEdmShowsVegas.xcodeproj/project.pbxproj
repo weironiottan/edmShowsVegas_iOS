@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5C8DDECC2D4F00BC00A333D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C8DDEB32D4F00BB00A333D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C8DDEBA2D4F00BB00A333D4;
+			remoteInfo = findEdmShowsVegas;
+		};
+		5C8DDED62D4F00BC00A333D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C8DDEB32D4F00BB00A333D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C8DDEBA2D4F00BB00A333D4;
+			remoteInfo = findEdmShowsVegas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C8DDEBB2D4F00BB00A333D4 /* findEdmShowsVegas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = findEdmShowsVegas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8DDECB2D4F00BC00A333D4 /* findEdmShowsVegasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = findEdmShowsVegasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8DDED52D4F00BC00A333D4 /* findEdmShowsVegasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = findEdmShowsVegasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5C8DDEBD2D4F00BB00A333D4 /* findEdmShowsVegas */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = findEdmShowsVegas;
+			sourceTree = "<group>";
+		};
+		5C8DDECE2D4F00BC00A333D4 /* findEdmShowsVegasTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = findEdmShowsVegasTests;
+			sourceTree = "<group>";
+		};
+		5C8DDED82D4F00BC00A333D4 /* findEdmShowsVegasUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = findEdmShowsVegasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C8DDEB82D4F00BB00A333D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8DDEC82D4F00BC00A333D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8DDED22D4F00BC00A333D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C8DDEB22D4F00BB00A333D4 = {
+			isa = PBXGroup;
+			children = (
+				5C8DDEBD2D4F00BB00A333D4 /* findEdmShowsVegas */,
+				5C8DDECE2D4F00BC00A333D4 /* findEdmShowsVegasTests */,
+				5C8DDED82D4F00BC00A333D4 /* findEdmShowsVegasUITests */,
+				5C8DDEBC2D4F00BB00A333D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C8DDEBC2D4F00BB00A333D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C8DDEBB2D4F00BB00A333D4 /* findEdmShowsVegas.app */,
+				5C8DDECB2D4F00BC00A333D4 /* findEdmShowsVegasTests.xctest */,
+				5C8DDED52D4F00BC00A333D4 /* findEdmShowsVegasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C8DDEBA2D4F00BB00A333D4 /* findEdmShowsVegas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8DDEDF2D4F00BC00A333D4 /* Build configuration list for PBXNativeTarget "findEdmShowsVegas" */;
+			buildPhases = (
+				5C8DDEB72D4F00BB00A333D4 /* Sources */,
+				5C8DDEB82D4F00BB00A333D4 /* Frameworks */,
+				5C8DDEB92D4F00BB00A333D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5C8DDEBD2D4F00BB00A333D4 /* findEdmShowsVegas */,
+			);
+			name = findEdmShowsVegas;
+			packageProductDependencies = (
+			);
+			productName = findEdmShowsVegas;
+			productReference = 5C8DDEBB2D4F00BB00A333D4 /* findEdmShowsVegas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C8DDECA2D4F00BC00A333D4 /* findEdmShowsVegasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8DDEE22D4F00BC00A333D4 /* Build configuration list for PBXNativeTarget "findEdmShowsVegasTests" */;
+			buildPhases = (
+				5C8DDEC72D4F00BC00A333D4 /* Sources */,
+				5C8DDEC82D4F00BC00A333D4 /* Frameworks */,
+				5C8DDEC92D4F00BC00A333D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C8DDECD2D4F00BC00A333D4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C8DDECE2D4F00BC00A333D4 /* findEdmShowsVegasTests */,
+			);
+			name = findEdmShowsVegasTests;
+			packageProductDependencies = (
+			);
+			productName = findEdmShowsVegasTests;
+			productReference = 5C8DDECB2D4F00BC00A333D4 /* findEdmShowsVegasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C8DDED42D4F00BC00A333D4 /* findEdmShowsVegasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8DDEE52D4F00BC00A333D4 /* Build configuration list for PBXNativeTarget "findEdmShowsVegasUITests" */;
+			buildPhases = (
+				5C8DDED12D4F00BC00A333D4 /* Sources */,
+				5C8DDED22D4F00BC00A333D4 /* Frameworks */,
+				5C8DDED32D4F00BC00A333D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C8DDED72D4F00BC00A333D4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C8DDED82D4F00BC00A333D4 /* findEdmShowsVegasUITests */,
+			);
+			name = findEdmShowsVegasUITests;
+			packageProductDependencies = (
+			);
+			productName = findEdmShowsVegasUITests;
+			productReference = 5C8DDED52D4F00BC00A333D4 /* findEdmShowsVegasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C8DDEB32D4F00BB00A333D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5C8DDEBA2D4F00BB00A333D4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5C8DDECA2D4F00BC00A333D4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5C8DDEBA2D4F00BB00A333D4;
+					};
+					5C8DDED42D4F00BC00A333D4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5C8DDEBA2D4F00BB00A333D4;
+					};
+				};
+			};
+			buildConfigurationList = 5C8DDEB62D4F00BB00A333D4 /* Build configuration list for PBXProject "findEdmShowsVegas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C8DDEB22D4F00BB00A333D4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C8DDEBC2D4F00BB00A333D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C8DDEBA2D4F00BB00A333D4 /* findEdmShowsVegas */,
+				5C8DDECA2D4F00BC00A333D4 /* findEdmShowsVegasTests */,
+				5C8DDED42D4F00BC00A333D4 /* findEdmShowsVegasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C8DDEB92D4F00BB00A333D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8DDEC92D4F00BC00A333D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8DDED32D4F00BC00A333D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C8DDEB72D4F00BB00A333D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8DDEC72D4F00BC00A333D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8DDED12D4F00BC00A333D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C8DDECD2D4F00BC00A333D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C8DDEBA2D4F00BB00A333D4 /* findEdmShowsVegas */;
+			targetProxy = 5C8DDECC2D4F00BC00A333D4 /* PBXContainerItemProxy */;
+		};
+		5C8DDED72D4F00BC00A333D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C8DDEBA2D4F00BB00A333D4 /* findEdmShowsVegas */;
+			targetProxy = 5C8DDED62D4F00BC00A333D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C8DDEDD2D4F00BC00A333D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C8DDEDE2D4F00BC00A333D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C8DDEE02D4F00BC00A333D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"findEdmShowsVegas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianGabrielsson.findEdmShowsVegas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C8DDEE12D4F00BC00A333D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"findEdmShowsVegas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianGabrielsson.findEdmShowsVegas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C8DDEE32D4F00BC00A333D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianGabrielsson.findEdmShowsVegasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/findEdmShowsVegas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/findEdmShowsVegas";
+			};
+			name = Debug;
+		};
+		5C8DDEE42D4F00BC00A333D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianGabrielsson.findEdmShowsVegasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/findEdmShowsVegas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/findEdmShowsVegas";
+			};
+			name = Release;
+		};
+		5C8DDEE62D4F00BC00A333D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianGabrielsson.findEdmShowsVegasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = findEdmShowsVegas;
+			};
+			name = Debug;
+		};
+		5C8DDEE72D4F00BC00A333D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christianGabrielsson.findEdmShowsVegasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = findEdmShowsVegas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C8DDEB62D4F00BB00A333D4 /* Build configuration list for PBXProject "findEdmShowsVegas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8DDEDD2D4F00BC00A333D4 /* Debug */,
+				5C8DDEDE2D4F00BC00A333D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8DDEDF2D4F00BC00A333D4 /* Build configuration list for PBXNativeTarget "findEdmShowsVegas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8DDEE02D4F00BC00A333D4 /* Debug */,
+				5C8DDEE12D4F00BC00A333D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8DDEE22D4F00BC00A333D4 /* Build configuration list for PBXNativeTarget "findEdmShowsVegasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8DDEE32D4F00BC00A333D4 /* Debug */,
+				5C8DDEE42D4F00BC00A333D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8DDEE52D4F00BC00A333D4 /* Build configuration list for PBXNativeTarget "findEdmShowsVegasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8DDEE62D4F00BC00A333D4 /* Debug */,
+				5C8DDEE72D4F00BC00A333D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C8DDEB32D4F00BB00A333D4 /* Project object */;
+}
