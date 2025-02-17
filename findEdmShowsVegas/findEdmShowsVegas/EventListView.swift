@@ -7,31 +7,37 @@
 
 import SwiftUI
 
-//struct EventListView: View {
-//    // Initialize our events with sample data
-//    @State private var events: [Event] = Event.sampleEvents
-//    
-//    var body: some View {
-//        NavigationView {
-//            List(events) { event in
-//                EventRowView(event: event)
-//            }
-//            .navigationTitle("Events")
-//        }
-//    }
-//}
 
-// EventListView.swift
+
 struct EventListView: View {
     // Create our service
     private let eventService = EventService()
     // Debugging purposes
-//    @State private var events: [Event] = Event.sampleEvents
+    @State private var events: [Event] = Event.sampleEvents
     
     // State to hold our events and loading state
-    @State private var events: [Event] = []
+//    uncomment for an empty list for live events data
+//    @State private var events: [Event] = []
     @State private var isLoading = false
     @State private var error: Error?
+    @Binding var searchText: String
+    var filteredEvents: [Event] {
+        guard !searchText.isEmpty else {
+            return events
+        }
+        
+        return events.filter { event in
+            let searchQuery = searchText.lowercased()
+            
+            return event.artistName.lowercased().contains(searchQuery)
+        }
+    }
+    
+    enum EventScope {
+        case ArtistName
+        case ClubName
+        case Date
+    }
     
     var body: some View {
         NavigationView {
@@ -53,21 +59,23 @@ struct EventListView: View {
                     }
                 } else {
                     // Our existing list view
-                    List(events) { event in
+                    List(filteredEvents) { event in
                         EventRowView(event: event)
                     }
+                    
                 }
             }
-            .navigationTitle("Events")
             // Load events when the view appears
             .task {
-                await loadEvents()
+//                uncomment the line below to load all events from the api
+                                await loadEvents()
             }
         }
     }
     
+    
     // Function to load our events
-    private func loadEvents() async {
+    func loadEvents() async {
         isLoading = true
         error = nil
         
@@ -120,5 +128,5 @@ struct EventRowView: View {
 
 // Preview provider for SwiftUI
 #Preview {
-    EventListView()
+    EventListView(searchText: .constant(""))
 }
