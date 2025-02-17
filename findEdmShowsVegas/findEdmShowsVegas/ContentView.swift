@@ -12,11 +12,13 @@ struct ContentView: View {
     // This is similar to state management in modern web frameworks
     // Think of it like a Python list that automatically triggers UI updates when modified
     @State private var events: [Event] = []
+    @State private var searchText: String = ""
     
     var body: some View {
         NavigationView {
-            EventListView()
-            .navigationTitle("Events")
+            EventListView(searchText: $searchText)
+                .searchable(text: $searchText)
+                .navigationTitle("Events")
         }
     }
     
