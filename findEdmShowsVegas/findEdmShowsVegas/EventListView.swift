@@ -21,6 +21,7 @@ struct EventListView: View {
     @State private var isLoading = false
     @State private var error: Error?
     @Binding var searchText: String
+    @Binding var scope: EventScope
     var filteredEvents: [Event] {
         guard !searchText.isEmpty else {
             return events
@@ -28,15 +29,46 @@ struct EventListView: View {
         
         return events.filter { event in
             let searchQuery = searchText.lowercased()
-            
-            return event.artistName.lowercased().contains(searchQuery)
+            switch scope {
+                case .artist:
+                return event.artistName.lowercased().contains(searchQuery)
+            case .venue:
+                return event.clubName.lowercased().contains(searchQuery)
+            case .date:
+                let dateFormatter = DateFormatter()
+                let calendar = Calendar.current
+                
+                let weekday = calendar.component(.weekday, from: event.eventDate)
+                let isWeekend = weekday == 1 || weekday == 6 || weekday == 7
+                
+                // Format 1: Full month name
+                dateFormatter.dateFormat = "MMMM"
+                let monthName = dateFormatter.string(from: event.eventDate).lowercased()
+                
+                // Format 2: Short month name
+                dateFormatter.dateFormat = "MMM"
+                let shortMonthName = dateFormatter.string(from: event.eventDate).lowercased()
+                
+                // Format 3: Day/Month
+                dateFormatter.dateFormat = "M/d"
+                let dayMonth = dateFormatter.string(from: event.eventDate).lowercased()
+                
+                // Format 4: Day name
+                dateFormatter.dateFormat = "EEEE"
+                let dayName = dateFormatter.string(from: event.eventDate).lowercased()
+                
+                // Check if searching for weekend
+                if searchQuery == "weekend" {
+                    return isWeekend
+                }
+                
+                
+                return monthName.contains(searchQuery) ||
+                       shortMonthName.contains(searchQuery) ||
+                       dayMonth.contains(searchQuery) ||
+                       dayName.contains(searchQuery)
+            }
         }
-    }
-    
-    enum EventScope {
-        case ArtistName
-        case ClubName
-        case Date
     }
     
     var body: some View {
@@ -68,7 +100,7 @@ struct EventListView: View {
             // Load events when the view appears
             .task {
 //                uncomment the line below to load all events from the api
-                                await loadEvents()
+//                                await loadEvents()
             }
         }
     }
@@ -128,5 +160,5 @@ struct EventRowView: View {
 
 // Preview provider for SwiftUI
 #Preview {
-    EventListView(searchText: .constant(""))
+    EventListView(searchText: .constant(""), scope: .constant(.artist))
 }
