@@ -23,14 +23,14 @@ extension Event {
             id: "ae7ff18a-b780-4288-88bd-6d8651b4a636",
             clubName: "XS Nightclub",
             artistName: "Diplo",
-            eventDate: ISO8601DateFormatter().date(from: "2025-02-01T00:00:00Z")!,
+            eventDate: ISO8601DateFormatter().date(from: "2025-03-01T00:00:00Z")!,
             ticketUrl: "https://www.wynnsocial.com/event/EVE111500020250201/diplo/"
         ),
         Event(
             id: "87e59d15-15ac-431c-8cbe-7e5ca949732e",
             clubName: "Marquee Dayclub",
             artistName: "Cedric Gervais",
-            eventDate: ISO8601DateFormatter().date(from: "2025-02-01T00:00:00Z")!,
+            eventDate: ISO8601DateFormatter().date(from: "2025-04-17T00:00:00Z")!,
             ticketUrl: "https://taogroup.com/event/2-1-2025-marquee-dome-saturday-marquee-dayclub/"
         )
     ]
